@@ -137,7 +137,7 @@ ggplot(steps_interval,aes(x=interval,y=steps_interval))+geom_line()+
   labs(title="5-minute interval (all days averaged) number of steps taken",x="5-minute intervals",y="average steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](plot2.png)<!-- -->
 
 ###2-Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -245,7 +245,7 @@ ggplot(day_steps,aes(daily_steps,fill=..count..))+geom_histogram(binwidth=2000,c
   scale_fill_gradient("count",low="blue",high="red")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](plot3.png)<!-- -->
 
 ```r
 mean(day_steps$daily_steps)
@@ -283,7 +283,7 @@ ggplot(day_steps_interval,aes(x=interval,y=steps_interval))+geom_line(aes(color=
   labs(title="Comparison of average steps taken on weekend and weekday",y="average steps taken")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](plot4.png)<!-- -->
 
 **It can be seen that on weekdays, average steps increase in the morning and in the middle of the day average number of steps decrease. In the evening average number of steps increase.**
 
