@@ -98,7 +98,7 @@ ggplot(steps,aes(daily_steps,fill=..count..))+geom_histogram(binwidth = 2000,col
                                                    title="Histogram of the total number of steps talen each day")+ scale_fill_gradient("count",low="green",high = "orange")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
+![](plot1.png)<!-- -->
 
 
 ###3-Calculate and report the mean and median of the total number of steps taken per day
